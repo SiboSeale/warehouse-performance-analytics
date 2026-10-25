@@ -270,12 +270,6 @@ Row counts were also reconciled from CSV to `stg` for all 11 tables.
 - **Python:** pandas and numpy for data generation and quality checks.
 - **Power BI:** data modelling, relationships, DAX measures (`CALCULATE`, `DIVIDE`, variables), report design.
 
-## 11. Possible Next Steps
-- Add target lines and conditional colours to each KPI visual.
-- Add tooltips and drill-through from the Overview to each stage page.
-- Add a data-refresh schedule and row-level security for customer-specific views.
-- Extend the model with labour productivity and transport tracking (currently out of scope).
-
 ---
 
 **Author:** Sibongile Seale
