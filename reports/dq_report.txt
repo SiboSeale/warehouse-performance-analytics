@@ -1,0 +1,125 @@
+======================================================================
+WMS DATA QUALITY REPORT
+======================================================================
+
+1. ROW COUNTS AND EMPTY CELLS
+
+  products: 300 rows, 8 columns
+    no empty cells
+
+  suppliers: 12 rows, 3 columns
+    no empty cells
+
+  customers: 40 rows, 4 columns
+    no empty cells
+
+  locations: 600 rows, 4 columns
+    no empty cells
+
+  purchase_orders: 1,473 rows, 8 columns
+    no empty cells
+
+  receipts: 1,522 rows, 13 columns
+    batch: 439 empty (28.8%)
+    expiry_date: 439 empty (28.8%)
+
+  stock_snapshot: 2,414 rows, 8 columns
+    batch: 180 empty (7.5%)
+    expiry_date: 228 empty (9.4%)
+    location_id: 12 empty (0.5%)
+
+  orders: 5,000 rows, 7 columns
+    no empty cells
+
+  order_lines: 25,478 rows, 10 columns
+    allocated_qty: 468 empty (1.8%)
+    pick_location_id: 468 empty (1.8%)
+    picked_sku: 1,135 empty (4.5%)
+    picked_qty: 1,135 empty (4.5%)
+    picked_datetime: 1,135 empty (4.5%)
+    shipped_qty: 1,748 empty (6.9%)
+
+  shipments: 4,649 rows, 4 columns
+    no empty cells
+
+  cycle_counts: 800 rows, 8 columns
+    batch: 51 empty (6.4%)
+    counted_qty: 36 empty (4.5%)
+
+2. EXACT DUPLICATE ROWS
+  [ OK ]    products
+  [ OK ]    suppliers
+  [ OK ]    customers
+  [ OK ]    locations
+  [ OK ]    purchase_orders
+  [ISSUE]   receipts: 15
+  [ OK ]    stock_snapshot
+  [ OK ]    orders
+  [ OK ]    order_lines
+  [ OK ]    shipments
+  [ OK ]    cycle_counts
+
+3. DUPLICATE PRIMARY KEYS (extra rows beyond the first)
+  [ OK ]    products (sku)
+  [ OK ]    suppliers (supplier_id)
+  [ OK ]    customers (customer_id)
+  [ OK ]    locations (location_id)
+  [ OK ]    purchase_orders (po_number + po_line)
+  [ISSUE]   receipts (grn_number + grn_line): 15
+  [ OK ]    stock_snapshot (stock_id)
+  [ OK ]    orders (order_id)
+  [ OK ]    order_lines (order_id + line_no)
+  [ OK ]    shipments (shipment_id)
+  [ OK ]    cycle_counts (count_id)
+
+4. ORPHAN FOREIGN KEYS (child value not found in parent table)
+  [ OK ]    purchase_orders.supplier_id -> suppliers
+  [ OK ]    purchase_orders.sku -> products
+  [ OK ]    receipts.po_number+po_line -> purchase_orders
+  [ OK ]    receipts.sku -> products
+  [ OK ]    stock_snapshot.sku -> products
+  [ OK ]    stock_snapshot.location_id -> locations
+  [ OK ]    orders.customer_id -> customers
+  [ OK ]    order_lines.order_id -> orders
+  [ OK ]    order_lines.sku -> products
+  [ OK ]    order_lines.pick_location_id -> locations
+  [ OK ]    shipments.order_id -> orders
+  [ OK ]    cycle_counts.location_id -> locations
+  [ OK ]    cycle_counts.sku -> products
+
+5. STATUS / CATEGORY LABELS (every distinct value and how often it appears)
+  [ISSUE]   receipts.quality_status has 14 distinct labels (expected 5): 11  (non-standard: 'In Stock', 'AVAILABLE', ' Available', 'available ', 'INSTOCK', 'quarantine ', 'DAMAGED', 'Quarantined')
+  [ISSUE]   stock_snapshot.quality_status has 18 distinct labels (expected 5): 13  (non-standard: 'In Stock', 'AVAILABLE', 'INSTOCK', 'available ', ' Available', 'QUARANTINE', 'RETURNS', 'expired ')
+  [ OK ]    orders.status has 6 distinct labels (expected 6)
+  [ OK ]    orders.order_type has 5 distinct labels (expected 5)
+  [ OK ]    orders.priority has 3 distinct labels (expected 3)
+  [ OK ]    purchase_orders.po_status has 3 distinct labels (expected 3)
+  [ OK ]    cycle_counts.count_status has 2 distinct labels (expected 2)
+
+6. DATE / DATETIME FORMATS
+  [ISSUE]   receipts.received_datetime not in standard format: 220
+  [ OK ]    receipts.expiry_date not in standard format
+  [ OK ]    orders.created_datetime not in standard format
+  [ OK ]    orders.promised_date not in standard format
+  [ OK ]    order_lines.picked_datetime not in standard format
+  [ OK ]    shipments.shipped_datetime not in standard format
+  [ OK ]    purchase_orders.created_date not in standard format
+  [ OK ]    purchase_orders.expected_date not in standard format
+  [ OK ]    stock_snapshot.expiry_date not in standard format
+  [ OK ]    cycle_counts.count_date not in standard format
+
+7. BUSINESS-LOGIC CHECKS
+  [ISSUE]   Shipped BEFORE the order was created: 14
+  [ISSUE]   Orders marked Shipped with no shipment record: 23
+  [ OK ]    Shipment records for orders NOT marked Shipped
+  [ISSUE]   Negative quantity on hand (stock_snapshot): 5
+  [ OK ]    Zero or negative qty_received (receipts)
+  [ OK ]    Order lines with ordered_qty <= 0
+  [ISSUE]   Batch-managed stock rows with no expiry date: 48
+  [ISSUE]   Stock rows with no location: 12
+  [ISSUE]   Shipped lines where shipped_qty <> ordered_qty (short or over-shipped): 344  (this one is a business finding, not a data error)
+
+======================================================================
+SUMMARY: 11 check(s) flagged an issue.
+Next step: load the CSVs into SQL Server staging (stg) tables and clean there.
+======================================================================

@@ -1,0 +1,10 @@
+kpi,expected_value,note
+OTIF %,89.21,"Non-cancelled orders due by 30 Sep, flagged rows excluded"
+Orders due (OTIF denominator),4608.0,
+On-time % (ignoring in-full),96.01,Helper
+In-full % (ignoring on-time),92.21,Helper
+Receiving Completion %,95.0,"Units received / units expected, cancelled PO lines excluded"
+Available Stock %,91.53,Negative-quantity rows excluded
+Pick Accuracy %,99.31,Right SKU and picked qty = allocated qty
+Order Cycle Time (hrs),31.88,"Shipped orders, flagged rows excluded"
+Inventory Accuracy %,95.81,Completed count lines only

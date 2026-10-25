@@ -1,0 +1,41 @@
+customer_id,customer_name,city,customer_type
+CUST-001,GlowBox Online,Online,E-Com
+CUST-002,BeautyNest Online,Online,E-Com
+CUST-003,Petal Co Online,Online,E-Com
+CUST-004,Skinly Online,Online,E-Com
+CUST-005,The Vanity Shop Online,Online,E-Com
+CUST-006,Dewdrop Direct,Online,E-Com
+CUST-007,Mirror Mirror Online,Online,E-Com
+CUST-008,Luxe Lane Online,Online,E-Com
+CUST-009,Greenleaf Pharmacy - Johannesburg,Johannesburg,Pharmacy
+CUST-010,Greenleaf Pharmacy - Sandton,Sandton,Pharmacy
+CUST-011,Greenleaf Pharmacy - Pretoria,Pretoria,Pharmacy
+CUST-012,Greenleaf Pharmacy - Cape Town,Cape Town,Pharmacy
+CUST-013,Sunrise Pharmacy - Johannesburg,Johannesburg,Pharmacy
+CUST-014,Sunrise Pharmacy - Sandton,Sandton,Pharmacy
+CUST-015,Sunrise Pharmacy - Pretoria,Pretoria,Pharmacy
+CUST-016,Sunrise Pharmacy - Cape Town,Cape Town,Pharmacy
+CUST-017,Wellcare Pharmacy - Johannesburg,Johannesburg,Pharmacy
+CUST-018,Wellcare Pharmacy - Sandton,Sandton,Pharmacy
+CUST-019,Wellcare Pharmacy - Pretoria,Pretoria,Pharmacy
+CUST-020,Wellcare Pharmacy - Cape Town,Cape Town,Pharmacy
+CUST-021,Harrington Stores - Johannesburg,Johannesburg,Department Store
+CUST-022,Harrington Stores - Sandton,Sandton,Department Store
+CUST-023,Harrington Stores - Pretoria,Pretoria,Department Store
+CUST-024,Harrington Stores - Cape Town,Cape Town,Department Store
+CUST-025,Harrington Stores - Durban,Durban,Department Store
+CUST-026,Harrington Stores - Port Elizabeth,Port Elizabeth,Department Store
+CUST-027,Harrington Stores - Midrand,Midrand,Department Store
+CUST-028,Harrington Stores - Bloemfontein,Bloemfontein,Department Store
+CUST-029,Studio Aura Salon,Sandton,Salon
+CUST-030,Silk and Co Salon,Cape Town,Salon
+CUST-031,The Style Lab Salon,Durban,Salon
+CUST-032,Bloom Hair Salon,Pretoria,Salon
+CUST-033,Velvet Room Salon,Johannesburg,Salon
+CUST-034,Glow Bar Salon,Midrand,Salon
+CUST-035,Cape Beauty Distribution,Cape Town,Distributor
+CUST-036,Highveld Wholesale Beauty,Johannesburg,Distributor
+CUST-037,Natal Cosmetics Distributors,Durban,Distributor
+CUST-038,Export Partners Windhoek,Windhoek,Distributor
+CUST-039,Internal Orders - Marketing,Johannesburg,Internal
+CUST-040,Internal Orders - Samples,Johannesburg,Internal

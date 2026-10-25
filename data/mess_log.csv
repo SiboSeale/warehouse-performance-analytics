@@ -1,0 +1,10 @@
+issue_id,table,column,issue,rows_affected,expected_handling
+1,receipts,quality_status,"Inconsistent labels (case, spaces, synonyms)",105,"Trim, upper/lower-case and map to 5 standard statuses"
+2,receipts,received_datetime,15% of rows use DD/MM/YYYY HH:MM instead of YYYY-MM-DD HH:MM:SS,216,Parse both formats into one DATETIME column
+3,receipts,grn_number + grn_line,Exact duplicate rows,15,"Keep one row per (grn_number, grn_line)"
+4,stock_snapshot,quality_status,"Inconsistent labels (case, spaces, synonyms)",193,"Trim, upper/lower-case and map to 5 standard statuses"
+5,stock_snapshot,location_id,Missing location,12,"Keep the quantity, assign location 'UNKNOWN'"
+6,stock_snapshot,expiry_date,Missing expiry on batch-managed stock,48,"Leave as NULL, report as 'Unknown' expiry bucket"
+7,stock_snapshot,qty_on_hand,Negative quantity (sign error),5,Flag as invalid and exclude from stock totals
+8,shipments,shipped_datetime,Shipped BEFORE the order was created,14,Flag as invalid; exclude from OTIF and Order Cycle Time
+9,orders / shipments,order_id,Orders with status 'Shipped' but no shipment record,23,Flag; exclude from OTIF and Order Cycle Time
