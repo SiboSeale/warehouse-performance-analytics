@@ -1,0 +1,206 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Page-1" id="EIilCV5T_XxJXbJyYIU_">
+    <mxGraphModel dx="5808" dy="1928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-120" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1650" y="40" width="1910" height="1820" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-38" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Apex Logistics Hub - Outbound Order Fulfilment - To-Be&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="KLAHwUFkceD8i0g07ORn-68" target="KLAHwUFkceD8i0g07ORn-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KLAHwUFkceD8i0g07ORn-68" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Start&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1057.5" y="30" width="141.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="KLAHwUFkceD8i0g07ORn-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1129" y="249.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KLAHwUFkceD8i0g07ORn-69" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Receive and record customer order&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1048.75" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="KLAHwUFkceD8i0g07ORn-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130.0526315789475" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KLAHwUFkceD8i0g07ORn-70" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Validate order details&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1050" y="250" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="KLAHwUFkceD8i0g07ORn-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1131.1052631578948" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="KLAHwUFkceD8i0g07ORn-71" target="ajZWEHZAGA-0Eld-eyUC-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KLAHwUFkceD8i0g07ORn-71" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Are order details valid?&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1043.75" y="370" width="175" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="KLAHwUFkceD8i0g07ORn-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130.0526315789475" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KLAHwUFkceD8i0g07ORn-72" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Check stock availabitlity&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1050" y="520" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="KLAHwUFkceD8i0g07ORn-73" target="KLAHwUFkceD8i0g07ORn-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="KLAHwUFkceD8i0g07ORn-73" target="ajZWEHZAGA-0Eld-eyUC-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KLAHwUFkceD8i0g07ORn-73" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Is sufficient stock available?&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1043.75" y="630" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="KLAHwUFkceD8i0g07ORn-74" target="KLAHwUFkceD8i0g07ORn-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KLAHwUFkceD8i0g07ORn-74" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Allocate stock and release order for picking&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1048.75" y="920" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="KLAHwUFkceD8i0g07ORn-75" target="KLAHwUFkceD8i0g07ORn-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KLAHwUFkceD8i0g07ORn-75" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Pick order lines&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1049.37" y="1010" width="161.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="KLAHwUFkceD8i0g07ORn-76" target="ajZWEHZAGA-0Eld-eyUC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KLAHwUFkceD8i0g07ORn-76" value="&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Verify picked SKU and quantity&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1050" y="1100" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="ajZWEHZAGA-0Eld-eyUC-1" target="ajZWEHZAGA-0Eld-eyUC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="ajZWEHZAGA-0Eld-eyUC-1" target="ajZWEHZAGA-0Eld-eyUC-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Is there a picking discrepancy?&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1040.63" y="1190" width="175" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="ajZWEHZAGA-0Eld-eyUC-2" target="ajZWEHZAGA-0Eld-eyUC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Pack and verify order&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1048.75" y="1455" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="ajZWEHZAGA-0Eld-eyUC-3" target="ajZWEHZAGA-0Eld-eyUC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Record shipment details and shipment date&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1047.5" y="1560" width="163.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="ajZWEHZAGA-0Eld-eyUC-4" target="ajZWEHZAGA-0Eld-eyUC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Update fulfilment reporting data&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1048.12" y="1650" width="162.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;End – Shipment&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;recorded&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1051.25" y="1740" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-55" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Yes&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1150" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="ajZWEHZAGA-0Eld-eyUC-56" target="KLAHwUFkceD8i0g07ORn-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="ajZWEHZAGA-0Eld-eyUC-56" target="ajZWEHZAGA-0Eld-eyUC-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-56" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Record validation issue and refer for correction&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="690" y="390" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-61" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="960" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-62" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Correct order details&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="690" y="480" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-70" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Yes&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1130" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-71" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Record insufficient-stock exception&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1360" y="645" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-73" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;No&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1250" y="645" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-74" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Supervisor/inventory review&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1370" y="730" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-75" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Supervisor/inventory review&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1370" y="810" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="ajZWEHZAGA-0Eld-eyUC-76" target="KLAHwUFkceD8i0g07ORn-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="ajZWEHZAGA-0Eld-eyUC-76" target="ajZWEHZAGA-0Eld-eyUC-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-76" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Can the order proceed?&lt;/b&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1390" y="900" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-79" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Yes&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1330" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-80" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Record approved order disposition&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1650" y="920" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-82" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;No&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1590" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="ajZWEHZAGA-0Eld-eyUC-86" target="ajZWEHZAGA-0Eld-eyUC-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-86" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Hold affected order line&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1370" y="1220" width="240" height="48.75" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="ajZWEHZAGA-0Eld-eyUC-90" target="ajZWEHZAGA-0Eld-eyUC-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-90" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Record and investigate discrepency&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1370" y="1290" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="ajZWEHZAGA-0Eld-eyUC-91" target="ajZWEHZAGA-0Eld-eyUC-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-91" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Recound and verify product and location&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1365" y="1350" width="245" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="ajZWEHZAGA-0Eld-eyUC-92" target="ajZWEHZAGA-0Eld-eyUC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120" source="ajZWEHZAGA-0Eld-eyUC-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1910" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-92" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Has the discrepancy been resolved?&lt;/b&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1380" y="1440" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-96" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Yes&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="1300" y="1600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-105" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1910" y="680" as="sourcePoint" />
+            <mxPoint x="1610" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajZWEHZAGA-0Eld-eyUC-119" value="&lt;h3 data-pm-slice=&quot;1 1 []&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Project scope (Proposed To-Be)&lt;/font&gt;&lt;/h3&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;- Focus: Improve inbound order fulfillment process&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- Start: Order received and recorded&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- End: Order shipped and recorded, or approved order disposition&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- Improvements: Order validation, stock exception handling, picking discrepancy resolution and improved record-keeping&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- Responsibilities: Warehouse operations, WMS and supervisor / inventory control&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- Excludes: Transport and last-mile delivery&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;font size=&quot;3&quot;&gt;- Basis: Proposed future-state workflow; exception-handling procedures require business validation&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="ajZWEHZAGA-0Eld-eyUC-120">
+          <mxGeometry x="10" y="40" width="570" height="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
